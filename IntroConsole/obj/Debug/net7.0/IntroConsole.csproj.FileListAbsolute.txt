@@ -1,0 +1,14 @@
+C:\Users\wuasa\Desktop\dotnet course\IntroConsole\bin\Debug\net7.0\IntroConsole.exe
+C:\Users\wuasa\Desktop\dotnet course\IntroConsole\bin\Debug\net7.0\IntroConsole.deps.json
+C:\Users\wuasa\Desktop\dotnet course\IntroConsole\bin\Debug\net7.0\IntroConsole.runtimeconfig.json
+C:\Users\wuasa\Desktop\dotnet course\IntroConsole\bin\Debug\net7.0\IntroConsole.dll
+C:\Users\wuasa\Desktop\dotnet course\IntroConsole\bin\Debug\net7.0\IntroConsole.pdb
+C:\Users\wuasa\Desktop\dotnet course\IntroConsole\obj\Debug\net7.0\IntroConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wuasa\Desktop\dotnet course\IntroConsole\obj\Debug\net7.0\IntroConsole.AssemblyInfoInputs.cache
+C:\Users\wuasa\Desktop\dotnet course\IntroConsole\obj\Debug\net7.0\IntroConsole.AssemblyInfo.cs
+C:\Users\wuasa\Desktop\dotnet course\IntroConsole\obj\Debug\net7.0\IntroConsole.csproj.CoreCompileInputs.cache
+C:\Users\wuasa\Desktop\dotnet course\IntroConsole\obj\Debug\net7.0\IntroConsole.dll
+C:\Users\wuasa\Desktop\dotnet course\IntroConsole\obj\Debug\net7.0\refint\IntroConsole.dll
+C:\Users\wuasa\Desktop\dotnet course\IntroConsole\obj\Debug\net7.0\IntroConsole.pdb
+C:\Users\wuasa\Desktop\dotnet course\IntroConsole\obj\Debug\net7.0\IntroConsole.genruntimeconfig.cache
+C:\Users\wuasa\Desktop\dotnet course\IntroConsole\obj\Debug\net7.0\ref\IntroConsole.dll

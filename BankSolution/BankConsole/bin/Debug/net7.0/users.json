@@ -1,0 +1,18 @@
+[
+  {
+    "TaxRegime": "M",
+    "ID": 1,
+    "Name": "César",
+    "Email": "cesar@email.com",
+    "Balance": 4080.0,
+    "RegisterDate": "2024-02-18T19:24:11.1028775-06:00"
+  },
+  {
+    "Department": "IT",
+    "ID": 2,
+    "Name": "Alexander",
+    "Email": "alex@email.com",
+    "Balance": 4200.00,
+    "RegisterDate": "2024-02-18T19:24:11.1122629-06:00"
+  }
+]
