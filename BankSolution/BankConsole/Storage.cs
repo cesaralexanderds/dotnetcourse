@@ -63,6 +63,24 @@ public static class Storage{
 
         return "Success";
     }
+
+    public static bool IsExistingID(int ID)
+        {
+            string usersInFile = File.Exists(filepath) ? File.ReadAllText(filepath) : "";
+            var listUsers = JsonConvert.DeserializeObject<List<User>>(usersInFile);
+
+            if (listUsers == null)
+                return false;
+
+            foreach (User user in listUsers)
+            {
+                if (user.GetID() == ID)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     public static List<User> GetNewUsers(){
         string usersInFile = "";
         var listUsers = new List<User>();
@@ -88,7 +106,7 @@ public static class Storage{
             listUsers.Add(newUser);
         }
 
-        var newUsersList = listUsers.Where(user => user.getRegisterDate().Date.Equals(DateTime.Today)).ToList();
+        var newUsersList = listUsers.Where(user => user.GetRegisterDate().Date.Equals(DateTime.Today)).ToList();
 
         return newUsersList;
     }

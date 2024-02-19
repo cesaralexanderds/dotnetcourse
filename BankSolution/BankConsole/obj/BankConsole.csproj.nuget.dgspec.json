@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wuasa\\Desktop\\dotnet course\\BankSolution\\BankConsole\\BankConsole.csproj": {}
+    "C:\\Users\\wuasa\\Documents\\dotnetcourse\\BankSolution\\BankConsole\\BankConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wuasa\\Desktop\\dotnet course\\BankSolution\\BankConsole\\BankConsole.csproj": {
+    "C:\\Users\\wuasa\\Documents\\dotnetcourse\\BankSolution\\BankConsole\\BankConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wuasa\\Desktop\\dotnet course\\BankSolution\\BankConsole\\BankConsole.csproj",
+        "projectUniqueName": "C:\\Users\\wuasa\\Documents\\dotnetcourse\\BankSolution\\BankConsole\\BankConsole.csproj",
         "projectName": "BankConsole",
-        "projectPath": "C:\\Users\\wuasa\\Desktop\\dotnet course\\BankSolution\\BankConsole\\BankConsole.csproj",
+        "projectPath": "C:\\Users\\wuasa\\Documents\\dotnetcourse\\BankSolution\\BankConsole\\BankConsole.csproj",
         "packagesPath": "C:\\Users\\wuasa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wuasa\\Desktop\\dotnet course\\BankSolution\\BankConsole\\obj\\",
+        "outputPath": "C:\\Users\\wuasa\\Documents\\dotnetcourse\\BankSolution\\BankConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wuasa\\AppData\\Roaming\\NuGet\\NuGet.Config"

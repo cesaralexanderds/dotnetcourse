@@ -1,38 +1,35 @@
-namespace BankConsole;
+using System;
 
-public class Client : User, IPerson
+namespace BankConsole
 {
-    public char TaxRegime { get; set; }
-
-    public Client(){
-
-    }
-    public Client(int id, string name, string email, decimal balance, char TaxRegime) : base(id, name, email, balance)
+    public class Client : User, IPerson
     {
-        this.TaxRegime = TaxRegime;
-        SetBalance(balance);
-    }
+        public char TaxRegime { get; set; }
 
-    public override void SetBalance(decimal amount)
-    {
-        base.SetBalance(amount);
-        if(TaxRegime.Equals('M'))
-            Balance += (amount * 0.02m);
-    }
+        public Client(){}
 
-    public override string ShowData()
-    {
-        return base.ShowData() + $" Regimen fiscal: {this.TaxRegime}";
+        public Client(int id, string name, string email, decimal balance, char TaxRegime) : base(id, name, email, balance)
+        {
+            if (TaxRegime != 'M' && TaxRegime != 'S')
+                throw new ArgumentException("El régimen fiscal debe ser 'M' o 'S'.");
 
-    }
+            this.TaxRegime = TaxRegime;
+            SetBalance(balance);
+        }
 
-    public string GetName()
-    {
-        return Name;
-    }
+        public override string ShowData()
+        {
+            return base.ShowData() + $" Regimen fiscal: {this.TaxRegime}";
+        }
 
-    public string GetCountry()
-    {
-        throw new NotImplementedException();
+        public string GetName()
+        {
+            return Name;
+        }
+
+        public string GetCountry()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

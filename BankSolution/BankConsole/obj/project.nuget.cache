@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RXyCKvTDMvG0RNk3/+clVs6AVvwBPbxnK6V3Q1nbhcZWmzqpRdsEUouf9LRiI+K2n0mXWEQu+oZhKk0DmdvVtQ==",
+  "dgSpecHash": "PAftWTM5gjAeKJ/jd6LFd944Qlq2lgeMCEfUdp2QYQ4S/PXHVxqG1u8X6Rjx+TNEFafItLchaLEdAQhOeHJC+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wuasa\\Desktop\\dotnet course\\BankSolution\\BankConsole\\BankConsole.csproj",
+  "projectFilePath": "C:\\Users\\wuasa\\Documents\\dotnetcourse\\BankSolution\\BankConsole\\BankConsole.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wuasa\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\wuasa\\.nuget\\packages\\mailkit\\4.3.0\\mailkit.4.3.0.nupkg.sha512",

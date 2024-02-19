@@ -1,38 +1,32 @@
-namespace BankConsole;
+using System;
 
-public class Employee : User, IPerson
+namespace BankConsole
 {
-
-    public string Department { get; set; }
-    public Employee(){
-        
-    }
-    public Employee(int id, string name, string email, decimal balance, string Department) : base(id, name, email, balance)
+    public class Employee : User, IPerson
     {
-        this.Department = Department;
-        SetBalance(balance);
-    }
+        public string Department { get; set; }
 
-    public override void SetBalance(decimal amount){
-        base.SetBalance(amount);
-        
-        if(Department.Equals("IT"))
-            Balance += (amount * 0.05m);
+        public Employee(){}
 
-    }
+        public Employee(int id, string name, string email, decimal balance, string Department) : base(id, name, email, balance)
+        {
+            this.Department = Department;
+            SetBalance(balance);
+        }
 
-    public override string ShowData()
-    {
-        return base.ShowData() + $", Department: {this.Department}";
-    }
+        public override string ShowData()
+        {
+            return base.ShowData() + $", Department: {this.Department}";
+        }
 
-    public string GetName()
-    {
-        return Name + '!';
-    }
+        public string GetName()
+        {
+            return Name + '!';
+        }
 
-    public string GetCountry()
-    {
-        throw new NotImplementedException();
+        public string GetCountry()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
